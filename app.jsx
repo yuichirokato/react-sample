@@ -2,15 +2,15 @@ import React from "react";
 
 class Hello extends React.Component {
   constructor(props) {
-    super(porps);
+    super(props);
   }
 
   render() {
-    return <h1>Hello! React</h1>;
+    return (<h1>Hello! React</h1>);
   }
 }
 
 React.render(
   <Hello />,
-  document.getElementById("container");
+  document.getElementById("container")
 );
